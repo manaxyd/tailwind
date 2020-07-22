@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Webpack Template</title>
+</head>
+<body class="bg-gray-100">
+
+  <!-- main wrapper -->
+  <div class="wrapper bg-gray-100 font-body">
+    <!-- #app wrapper for vue -->
+    <div id="app">
+
+      <!-- navbar vue component -->
+      <nav-head></nav-head>
+
+      <!-- only content wrapper -->
+      <div class="content-wrapper">
+
+        <!--  expamle section -->
+        <section id="promo" class="flex flex-row items-center content-center bg-fixed bg-no-repeat bg-center bg-cover h-screen" style="background-image: url(assets/img/cancun.jpg)">
+          <div class="container self-center text-center text-gray-700 p-10">
+            <h1 class="text-6xl">The Best Mexico Guide</h1>
+          </div>
+        </section>
+        <!-- expamle vue component -->
+        <example-com></example-com>
+
+        <section class="flex flex-row items-center content-center bg-red-500 h-screen">
+          <div class="container self-center text-center text-gray-700 p-10">
+            <h1 class="text-6xl">The Best Mexico Guide</h1>
+          </div>
+        </section>
+
+      </div> <!-- end content wrapper -->
+
+    <footer></footer>
+
+    </div> <!-- end #app wrapper -->
+  </div> <!-- end main wrapper -->
+
+</body>
+</html>
